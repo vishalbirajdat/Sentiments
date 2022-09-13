@@ -45,25 +45,30 @@ const Index = () => {
 
 
 
+
   const connectWallet = async ()=>{
     let provider = await connectWalletChecker();
     try {
       
       console.log("Wallet Connectio provider ...", provider);
     if (provider) {
+      console.log("provide is true")
       const wallet = await provider.getSigner();
+      console.log("provide getSigner")
       let addressCheck = await wallet.getAddress();
+      console.log("provide getAddress")
       let balanceCheck = await ethers.utils.formatEther(await wallet.getBalance());
+      console.log("provide balance")
       console.log("ADDRESS : ", addressCheck);
       console.log("BALANCE : ", balanceCheck);
       setAddress(addressCheck);
+      console.log("wallet connection completed")
     }
       } catch (error) {
       console.log("Wallet Connectio Error ...", error.message);
     }
 
   }
-
 
 
   const voteToCoin = async (_token, _updown)=>{
