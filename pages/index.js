@@ -57,10 +57,7 @@ const Index = () => {
       console.log("provide getSigner")
       let addressCheck = await wallet.getAddress();
       console.log("provide getAddress")
-      let balanceCheck = await ethers.utils.formatEther(await wallet.getBalance());
-      console.log("provide balance")
       console.log("ADDRESS : ", addressCheck);
-      console.log("BALANCE : ", balanceCheck);
       setAddress(addressCheck);
       console.log("wallet connection completed")
     }
