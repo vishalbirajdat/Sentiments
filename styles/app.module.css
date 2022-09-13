@@ -1,0 +1,172 @@
+
+.list{
+  width:90%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+  row-gap: 50px;
+}
+
+
+.header {
+  height: 100px;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+flex-wrap: wrap;
+  row-gap: 50px;
+  align-items: center;
+
+}
+
+.loadingCircle {
+  border: 4px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 20px rgb(63,94,251);
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingWave {
+  position: relative;
+  right: 30%;
+  width: 160%;
+  height: 160%;
+  transform-origin: 50% 50%;
+  border-radius: 78% 56%;
+    box-shadow: 0 0 20px rgb(63,94,251);
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(78,92,240,1) 8%, rgba(91,91,230,1) 15%, rgba(112,88,214,1) 26%, rgba(123,87,205,1) 32%, rgba(140,85,192,1) 41%, rgba(153,83,182,1) 48%, rgba(166,81,172,1) 55%, rgba(183,79,159,1) 64%, rgba(198,77,147,1) 72%, rgba(217,75,133,1) 82%, rgba(225,74,127,1) 86%, rgba(235,73,120,1) 91%, rgba(252,70,107,1) 100%);
+  animation: spin 5s infinite linear;
+}
+
+
+.loadingBox{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingTitle{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loadingTitle>:nth-child(1){
+  color: white;
+    font-size: 20px;
+    font-weight: semibold;
+    letter-spacing: 2px;
+  }
+  
+  .loadingTitle>:nth-child(2){
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+.loadingPercentage{
+   position: absolute;
+  top: 75px;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  cursor: pointer;
+   font-size: 75px;
+}
+
+
+.connectwallet{
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  background:#c43d08;
+  transition: 1s all;
+  text-transform: uppercase;
+}
+
+.connectwallet:hover{
+  background: #15c408;
+}
+
+
+.connectwalletTrue{
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  background:#15c408;
+  transition: 1s all;
+  text-transform: lowercase;
+}
+
+.connectwalletTrue:hover{
+  background: #c43d08;
+}
+
+.logo{
+  display: flex;
+  gap:10px;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  align-items: center;
+}
+
+.instructions{
+  max-width: 100%;
+  margin-top: 50px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+.sc-kTvvXX {
+  background-color: #202c37 !important;
+  width: 40vw !important;
+  height: 450px;
+}
+
+
+
+

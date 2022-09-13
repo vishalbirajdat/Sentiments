@@ -1,0 +1,107 @@
+.circle {
+  border: 4px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.wave {
+  position: relative;
+  right: 30%;
+  width: 160%;
+  height: 160%;
+  transform-origin: 50% 50%;
+  border-radius: 78% 56%;
+  animation: spin 5s infinite linear;
+}
+
+.percentage {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.percentage .up{
+  width: fit-content;
+background: green;
+  padding: 10px 15px;
+  border-radius: 5px;
+     color: white;
+    text-transform: uppercase;
+}
+
+.percentage .down{
+  background: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+  width: fit-content;
+}
+
+
+
+.percentage .perc{
+  font-size: 75px;
+}
+
+.pendingMessage{
+  margin-top: 17px;
+  font-size: 16px;
+}
+.pendingTitle{
+  font-size: 36px;
+}
+
+.votes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: #000;
+  color: #fff;
+}
+
+.token {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.avtarToken {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 84px;
+}
+
+.avtarToken>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
