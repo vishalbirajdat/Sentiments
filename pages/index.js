@@ -216,7 +216,7 @@ const Index = () => {
           Sentiments
         </div>
 
-            {address ? <div className={style.connectwalletTrue} >Connected</div> : <div className={style.connectwallet} onClick={connectWallet}>Wallet</div>}
+            {address ? <div className={style.connectwalletTrue} >Connected</div> : <div> <button className={style.connectwallet} onClick={connectWallet}>Wallet</button> </div>}
         
 
       </div>
