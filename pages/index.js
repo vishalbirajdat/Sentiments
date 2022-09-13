@@ -59,7 +59,7 @@ const Index = () => {
       setAddress(addressCheck);
     }
       } catch (error) {
-      console.log("Wallet Connectio Error ...", error);
+      console.log("Wallet Connectio Error ...", error.message);
     }
 
   }
