@@ -31,10 +31,14 @@ const Index = () => {
  
   
   useEffect(() => {
-    ethereum?.on("accountsChanged", AccountChanged);
-    return () => {
-      ethereum?.removeListener("accountsChanged", AccountChanged);
-    };
+  try{
+            ethereum?.on("accountsChanged", AccountChanged);
+            return () => {
+                ethereum?.removeListener("accountsChanged", AccountChanged);
+            };
+        }catch(e){
+            console.log(e.message)
+        }
   });
 
 
