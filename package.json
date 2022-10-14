@@ -1,0 +1,27 @@
+{
+  "name": "client-110922",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build":"next build",
+    "start":"next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.0",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+      "react-redux": "^8.0.2",
+      "react-spinners": "^0.13.4",
+      "react-toastify": "^9.0.8",
+    "webpack": "^5.74.0"
+  }
+}

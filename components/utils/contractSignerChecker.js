@@ -3,6 +3,7 @@ import { ethers } from "ethers"
 import data from "./data.json"
 
 const Contract = async () => {
+  try{
   let provider = await connectWalletChecker();
   if (provider) {
     let walletSigner = await provider.getSigner()
@@ -14,6 +15,10 @@ const Contract = async () => {
     return contract;
   } else {
     return false
+  }
+     
+  } catch (error) {
+    return false;
   }
 }
 
