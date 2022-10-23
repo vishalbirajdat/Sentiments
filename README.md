@@ -25,7 +25,7 @@ Link : [https://sentiments-alpha.vercel.app/](https://sentiments-alpha.vercel.ap
 ## Other projects
 
 ### Own Blockchain : 
-- Github Link : [https://linkedin.com](https://linkedin.com)
+- Github Link : [https://github.com/vishalbirajdat/own-blockchain](https://github.com/vishalbirajdat/own-blockchain)
 
 ### TrueToken : 
 - Github Link [https://github.com/vishalbirajdat/True-Contract](https://github.com/vishalbirajdat/True-Contract)
