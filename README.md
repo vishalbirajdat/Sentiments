@@ -36,7 +36,7 @@ Link : [https://sentiments-alpha.vercel.app/](https://sentiments-alpha.vercel.ap
 - Live website Link [https://nfts-lemon.vercel.app/](https://nfts-lemon.vercel.app/)
 
 ### Crowdfunding :
-- Github Link : [https://linkedin.com](https://linkedin.com)
+- Github Link : [https://github.com/vishalbirajdat/crowdfuncding](https://github.com/vishalbirajdat/crowdfuncding)
 
 ### Sentiments : 
 - Github Link [https://github.com/vishalbirajdat/Sentiments](https://github.com/vishalbirajdat/Sentiments)
