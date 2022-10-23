@@ -1,22 +1,17 @@
 ## Creator : Vishal Birajdar
 Linkedin  Profile [https://www.linkedin.com/in/vishal-birajdar-523b12197](https://www.linkedin.com/in/vishal-birajdar-523b12197)
 
-## Project Name : TrueContract
+## Project Name : Sentiments
 Link : [https://sentiments-alpha.vercel.app/](https://sentiments-alpha.vercel.app/)
 
 ## project Aim
 
-- Help to make trusted transaction between two tokens.
-- contract help to create trust between two user to transfer their crypto tokens between them
+- Check Market sentimates  this help to make trade on cryptocurrency market.
+- give up/down votes for checking market sentiment
 
 ## How is it work ?
-- Create an ticket
-- copy token Id from last History
-- Send token id to friend
-- Add Token Id in Earn Reward Sector
-- Pay Balace token and complete the process
-- Get Rward
-- Withdraw reward  
+- Connect To Wallet
+- Give Vote for up/down Markets.
 
 ## What is used To make this project ? 
 - solidity (smart contract)
@@ -24,7 +19,6 @@ Link : [https://sentiments-alpha.vercel.app/](https://sentiments-alpha.vercel.ap
 - Etherjs
 - web3
 - hardhat
-- openzeppelin
 - metamask
 
 
